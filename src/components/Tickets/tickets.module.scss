@@ -1,0 +1,59 @@
+%pFont {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.button {
+  button {
+    width: 250px;
+    padding: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    &:hover {
+      background-color: dodgerblue;
+      color: white;
+  }
+  }
+  .button_select {
+    background-color: dodgerblue;
+    color: white;
+  }
+}
+
+.tickets {
+  width: 500px;
+}
+
+.ticket {
+  padding: 10px 15px;
+  background-color: white;
+  border: 1px solid gray;
+  margin-top: 15px;
+  .ticket__header {
+    display: flex;
+    justify-content: space-between;
+    h2 {
+      color: dodgerblue;
+    }
+  }
+  .ticket__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .ticket__content__group {
+      width: 25%;
+      text-align: left;
+      .p_gray {
+        @extend %pFont;
+        color: darkgray;
+      }
+      .p_black {
+        @extend %pFont;
+      }
+      div {
+        height: 50px;
+      }
+    }
+  }
+}

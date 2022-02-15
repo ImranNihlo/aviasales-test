@@ -1,0 +1,41 @@
+.sidebar {
+  width: 200px;
+  height: 175px;
+  border: 1px solid darkolivegreen;
+  padding: 5px 0;
+  background-color: white;
+  p {
+    padding-left: 15px;
+    color: black;
+  }
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  padding-left: 15px;
+  cursor: pointer;
+  &:hover {
+    background-color: #F0F8FF;
+  }
+  p {
+    padding: 0 0 4px 5px;
+  }
+}
+
+.input_active {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  padding-left: 15px;
+  cursor: pointer;
+  background-color: #F0F8FF;
+  p {
+    padding: 0 0 4px 5px;
+  }
+}
+
+a {
+  text-decoration: none;
+}
